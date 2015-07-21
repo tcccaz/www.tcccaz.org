@@ -1,6 +1,16 @@
 ---
 tw:
   tccc: "土桑華人基督教會"
+  header:
+    about_us: 關於教會
+    intro: 教會介紹
+    beliefs: 我們的信仰
+    leadership: 我們的牧長
+    ministry: 事工部門
+    schedule: 聚會時間
+    sermons: 講道信息
+    news: 最新消息
+    contact: 聯絡我們
   slide:
     item1:
       title: "我的幫助從造天地的耶和華而來"
@@ -18,7 +28,7 @@ tw:
       title: 主任牧師
       bio: BIO
     staff2:
-      name: Kathy O'Brien
+      name: "Kathy O'Brien"
       title: 區牧長/兒童青少年及英語部事工
       bio: BIO
     staff3:
