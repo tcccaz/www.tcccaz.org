@@ -10,6 +10,7 @@ tw:
     schedule: 聚會時間
     sermons: 講道信息
     news: 最新消息
+    building: "#建堂#"
     contact: 聯絡我們
   slide:
     item1:
