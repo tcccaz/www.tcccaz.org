@@ -21,6 +21,9 @@ activate :blog do |blog|
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
 
+  blog.sources = "{category}/{year}-{month}-{day}-{title}.html"
+  blog.permalink = "{category}/{year}/{month}/{day}/{title}.html"
+
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 

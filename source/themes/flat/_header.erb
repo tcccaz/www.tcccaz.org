@@ -15,27 +15,27 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= I18n.t('header.about_us') %> <i class="icon-angle-down"></i></a>
           <ul class="dropdown-menu">
-            <li><a href="about-us.html"><%= I18n.t('header.intro') %></a></li>
-            <li><a href="our-beliefs.html"><%= I18n.t('header.beliefs') %></a></li>
-            <li><a href="about-us.html"><%= I18n.t('header.leadership') %></a></li>
+            <li><a href="/about-us.html"><%= I18n.t('header.intro') %></a></li>
+            <li><a href="/our-beliefs.html"><%= I18n.t('header.beliefs') %></a></li>
+            <li><a href="/about-us.html"><%= I18n.t('header.leadership') %></a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= I18n.t('header.ministry') %> <i class="icon-angle-down"></i></a>
           <ul class="dropdown-menu">
-            <li><a href="blog.html">兒童</a></li>
-            <li><a href="blog.html">青少年</a></li>
-            <li><a href="blog.html">College</a></li>
-            <li><a href="blog.html">留學生/研究生</a></li>
-            <li><a href="blog.html">家庭</a></li>
-            <li><a href="blog.html">訪問學者</a></li>
+            <li><a href="/kids.html"><%= I18n.t('kids') %></a></li>
+            <li><a href="/youth.html"><%= I18n.t('youth') %>e</a></li>
+            <li><a href="/students.html"><%= I18n.t('students') %></a></li>
+            <li><a href="/family.html"><%= I18n.t('families') %></a></li>
+            <li><a href="/visiting-scholar.html"><%= I18n.t('visiting_scholar') %></a></li>
           </ul>
         </li>
-        <li><a href="schedule.html"><%= I18n.t('header.schedule') %></a></li>
-        <li><a href="sermons.html"><%= I18n.t('header.sermons') %></a></li>
-        <li><a href="news.html"><%= I18n.t('header.news') %></a></li>
-        <li><a href="building.html"><%= I18n.t('header.building') %></a></li>
-        <li><a href="contact-us.html"><%= I18n.t('header.contact') %></a></li>
+        <li><a href="/schedule.html"><%= I18n.t('header.schedule') %></a></li>
+        <!--<li><a href="sermons.html"><%= I18n.t('header.sermons') %></a></li>-->
+        <li><a href="/news.html"><%= I18n.t('header.news') %></a></li>
+        <li><a href="/building.html"><%= I18n.t('header.building') %></a></li>
+        <li><a href="/contact-us.html"><%= I18n.t('header.contact') %></a></li>
+        <li><%= partial 'paypal_donation' %></li>
       </ul>
     </div>
   </div>

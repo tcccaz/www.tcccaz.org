@@ -1,3 +1,14 @@
 ---
 en:
   tccc: "Tucson Chinese Christian Church"
+  header:
+    about_us: About Us
+    intro: Introduction
+    beliefs: Our Beliefs
+    leadership: Leadership
+    ministry: Ministries
+    schedule: Schedules
+    sermons: Sermons
+    news: News
+    building: "#New Building#"
+    contact: Contact Us

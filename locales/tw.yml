@@ -8,20 +8,28 @@ tw:
     leadership: 我們的牧長
     ministry: 事工部門
     schedule: 聚會時間
-    sermons: 講道信息
+    sermons: 講道
     news: 最新消息
     building: "#建堂#"
     contact: 聯絡我們
+  bottom:
+    about: 關於
+    news: 最新消息
+    address: 聯絡地址
+    links: 網站連結
   slide:
     item1:
-      title: "我的幫助從造天地的耶和華而來"
-      subtitle: "Mt. Lemmon, Tucson, Arizona"
-    item2:
       title: "耶和華用能力創造大地，用智慧建立世界，用聰明鋪張穹蒼。"
-      subtitle: "Biosphere 2, Tucson, Arizona"
+      subtitle1: "耶利米書10:12"
+      subtitle2: "Biosphere 2, Arizona"
+    item2:
+      title: "我的幫助從造天地的耶和華而來"
+      subtitle1: "詩篇121:2"
+      subtitle2: "Mt. Lemmon, Tucson, Arizona"
     item3:
-      title: ""
-      subtitle: "Reid Park, Tucson, Arizona"
+      title: "他使我躺臥在青草地上，領我在可安歇的水邊。他使我的靈魂甦醒，為自己的名引導我走義路。"
+      subtitle1: "詩篇 23:2"
+      subtitle2: "Reid Park, Tucson, Arizona"
   about_us:
     leadership: 我們的牧長
     staff1:
@@ -42,3 +50,15 @@ tw:
       bio: BIO
   contact_us: 聯絡我們
   our_location: 教會位置
+  tags: 分類
+  kids: 學前/兒童
+  youth: 青少年/College
+  students: 學生
+  families: 家庭
+  visiting_scholar: 訪問學者
+  faith_verse: "但記這些事要叫你們信耶穌是基督，是神的兒子，並且叫你們信了他，就可以因他的名得生命。(約翰福音 20:31)<br><br>信就是所望之事的實底，是未見之事的確據。(希伯來書 11:1)"
+  hope_verse: "神願意叫他們知道，這奧祕在外邦人中有何等豐盛的榮耀，就是基督在你們心裡成了有榮耀的盼望。(歌羅西書 1:27) <br><br>我的心哪，你當默默無聲，專等候神，因為我的盼望是從他而來。(詩篇 62:5)"
+  love_verse: "神愛世人，甚至將他的獨生子賜給他們，叫一切信他的不致滅亡，反得永生。(約翰福音 3:16)<br><br>凡事包容．凡事相信．凡事盼望．凡事忍耐。愛是永不止息。(哥林多前書13:7-8)"
+  faith: 信
+  hope: 望
+  love: 愛
