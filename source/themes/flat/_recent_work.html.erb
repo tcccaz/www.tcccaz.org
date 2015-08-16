@@ -1,0 +1,31 @@
+<section id="recent-works">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="scroller" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="row">
+                <% blog.articles[0..2].each do |article|  %>
+                <div class="col-xs-6">
+                  <div class="portfolio-item">
+                    <div class="item-inner">
+                      <img class="img-responsive" src="<%= article.data.img_src %>" width="650px"/>
+                      <h3>
+                        <%= article.title %>
+                      </h3>
+                      <div class="overlay">
+                        <a class="preview btn btn-danger" href="<%= article.url %>" rel=""><i class="icon-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <% end %>
+              </div><!--/.row-->
+            </div><!--/.item-->
+          </div>
+        </div>
+      </div>
+    </div><!--/.row-->
+  </div>
+</section><!--/#recent-works-->

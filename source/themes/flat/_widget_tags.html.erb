@@ -1,0 +1,8 @@
+<div class="widget tags">
+  <h3><%= I18n.t('tags') %></h3>
+  <ul class="tag-cloud">
+    <% blog.tags.each do |tag, articles| %>
+      <li><a class="btn btn-xs btn-primary" href="<%= "/tags/#{tag}.html" %>"><%= tag.capitalize %></a></li>
+    <% end %>
+  </ul>
+</div><!--/.tags-->

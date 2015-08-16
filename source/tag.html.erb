@@ -2,24 +2,48 @@
 pageable: true
 per_page: 12
 ---
-<h1>Articles tagged '<%= tagname %>'</h1>
 
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
+<section id="blog" class="container">
+  <h2><%= tagname.capitalize %></h2>
+  <% if paginate && num_pages > 1 %>
+    <p>Page <%= page_number %> of <%= num_pages %></p>
 
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
+    <% if prev_page %>
+      <p><%= link_to 'Previous page', prev_page %></p>
+    <% end %>
   <% end %>
-<% end %>
+  <div class="row">
+    <aside class="col-sm-4 col-sm-push-8">
 
-<ul>
-  <% page_articles.each_with_index do |article, i| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-  <% end %>
-</ul>
+      <%= partial 'widget_tags' %>
+      <%= partial 'widget_facebook_fanpage' %>
+    </aside>
+    <div class="col-sm-8 col-sm-pull-4">
+      <div class="blog">
+        <% page_articles.each_with_index do |article, i| %>
 
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
+          <div class="blog-item">
+            <div class="blog-content">
+              <a href="<%= article.url %>"><h3><%= article.title %></h3></a>
+              <div class="entry-meta">
+                <span><i class="icon-calendar"></i>&nbsp;<%= article.date.strftime('%b %e, %Y') %></span>
+                <span><i class="icon-tags"></i>
+                  <% article.tags.each do |tag| %>
+                     <a href='<%= "/tags/#{tag}.html" %>' class="btn btn-default btn-xs" ><%= tag.capitalize %></a>
+                  <% end %>
+                </span>
+              </div>
+              <p><%= article.body %></p>
+              <a class="btn btn-default" href="<%= article.url %>">Read More <i class="icon-angle-right"></i></a>
+            </div>
+          </div><!--/.blog-item-->
+        <% end %>
+      </div>
+    </div><!--/.col-md-8-->
+  </div><!--/.row-->
+  <% if paginate %>
+    <% if next_page %>
+      <p><%= link_to 'Next page', next_page %></p>
+    <% end %>
   <% end %>
-<% end %>
+</section><!--/#blog-->

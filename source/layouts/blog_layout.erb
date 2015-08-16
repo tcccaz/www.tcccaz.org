@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<%= partial "head" %>
+  <body class="<%= page_classes %>">
+    <%= partial "header" %>
+    <section id="blog" class="container">
+      <div class="row">
+        <aside class="col-sm-4 col-sm-push-8">
+          <%= partial 'widget_tags' %>
+          <%= partial 'widget_facebook_fanpage' %>
+        </aside>
+        <div class="col-sm-8 col-sm-pull-4">
+          <div class="blog">
+            <div class="blog-item">
+              <div class="blog-content">
+                <h3><%= current_article.title %></h3>
+                <div class="entry-meta">
+                  <span><i class="icon-calendar"></i>&nbsp;<%= current_article.date.strftime('%b %e, %Y') %></span>
+                  <span><i class="icon-tags"></i>
+                    <% current_article.tags.each_with_index do |tag, i| %>
+                       <a href='<%= "/tags/#{tag}.html" %>' class="btn btn-default btn-xs" ><%= tag.capitalize %></a>
+                    <% end %>
+                  </span>
+                </div>
+                <%= yield %>
+
+              </div>
+            </div><!--/.blog-item-->
+          </div>
+        </div><!--/.col-md-8-->
+      </div><!--/.row-->
+    </section><!--/#blog-->
+
+    <%= partial "bottom" %>
+<%= partial "footer" %>
+  </body>
+</html>

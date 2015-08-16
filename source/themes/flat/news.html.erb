@@ -1,41 +1,9 @@
-    <div id="fb-root"></div>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '1626547154283147',
-          xfbml      : true,
-          version    : 'v2.4'
-        });
-      };
-
-      (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-
     <section id="blog" class="container">
         <div class="row">
             <aside class="col-sm-4 col-sm-push-8">
 
-                <div class="widget tags">
-                    <h3><%= I18n.t('tags') %></h3>
-                    <ul class="tag-cloud">
-                      <% blog.tags.each do |tag, articles| %>
-                        <li><a class="btn btn-xs btn-primary" href="#"><%= tag.capitalize %></a></li>
-                      <% end %>
-                    </ul>
-                </div><!--/.tags-->
-
-                <div class="widget facebook-fanpage">
-                    <h3>Facebook Page</h3>
-                    <div class="widget-content">
-                        <div class="fb-like-box" data-href="https://www.facebook.com/tucsonchinesechristianchurch" data-width="332" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
-                    </div>
-                </div>
+                <%= partial 'widget_tags' %>
+                <%= partial 'widget_facebook_fanpage' %>
             </aside>
             <div class="col-sm-8 col-sm-pull-4">
                 <div class="blog">
@@ -45,14 +13,14 @@
                         <div class="blog-content">
                             <a href="<%= article.url %>"><h3><%= article.title %></h3></a>
                             <div class="entry-meta">
-                                <span><i class="icon-folder-close"></i>
-                                  <% article.tags.each do |tag| %>
-                                     <a href='<%= "tags/#{tag}.html" %>' ><%= tag.capitalize %></a>
-                                    <% end %>
-                                </span>
                                 <span><i class="icon-calendar"></i>&nbsp;<%= article.date.strftime('%b %e, %Y') %></span>
+                                <span><i class="icon-tags"></i>
+                                  <% article.tags.each do |tag| %>
+                                     <a href='<%= "/tags/#{tag}.html" %>' class="btn btn-default btn-xs" ><%= tag.capitalize %></a>
+                                  <% end %>
+                                </span>
                             </div>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                            <p><%= article.summary %></p>
                             <a class="btn btn-default" href="<%= article.url %>">Read More <i class="icon-angle-right"></i></a>
                         </div>
                     </div><!--/.blog-item-->
