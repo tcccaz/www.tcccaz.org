@@ -2,10 +2,12 @@
 tw:
   tccc: "土桑華人基督教會"
   header:
+    home: 首頁
     about_us: 關於教會
     intro: 教會介紹
     beliefs: 我們的信仰
-    leadership: 我們的牧長
+    leadership: 牧長團隊
+    vision: 我們的異象
     ministry: 事工部門
     schedule: 聚會時間
     sermons: 講道
@@ -31,7 +33,7 @@ tw:
       subtitle1: "詩篇 23:2"
       subtitle2: "Reid Park, Tucson, Arizona"
   about_us:
-    leadership: 我們的牧長
+    leadership: 牧長團隊
     staff1:
       name: 曹呈浩
       title: 主任牧師

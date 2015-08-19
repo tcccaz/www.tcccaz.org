@@ -29,9 +29,9 @@
       </div><!--/.col-md-3-->
 
       <div class="col-md-3 col-sm-6">
-        <h4><%= I18n.t('bottom.news') %></h4>
+        <h4><%= link_to I18n.t('bottom.news'), '/news.html' %></h4>
         <div>
-          <% blog.articles.each do |article| %>
+          <% blog.articles[0..2].each do |article| %>
 
         <div class="media">
             <div class="pull-left glyphicon glyphicon-leaf">

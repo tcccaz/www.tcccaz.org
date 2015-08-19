@@ -21,6 +21,7 @@
             </div><!--/.col-sm-6-->
         </div><!--/.row-->
 
+         <%= partial('related_news', :locals => {:articles => blog.tags['scholar']}) if blog.tags['scholar'] %>
         <div class="gap"></div>
 
     </section><!--/#about-us-->

@@ -1,0 +1,29 @@
+<div class="row">
+  <aside class="col-sm-4 col-sm-push-8">
+    <%= partial 'widget_facebook_fanpage' %>
+  </aside>
+  <div class="col-sm-8 col-sm-pull-4">
+    <div class="blog">
+      <h3>相關消息</h3>
+      <% articles.each do |article| %>
+
+        <div class="blog-item">
+          <div class="blog-content">
+            <a href="<%= article.url %>"><h3><%= article.title %></h3></a>
+            <div class="entry-meta">
+              <span><i class="icon-calendar"></i>&nbsp;<%= article.date.strftime('%b %e, %Y') %></span>
+                                <span><i class="icon-tags"></i>
+                                  <% article.tags.each do |tag| %>
+                                     <a href='<%= "/tags/#{tag}.html" %>' class="btn btn-default btn-xs" ><%= tag.capitalize %></a>
+                                  <% end %>
+                                </span>
+            </div>
+            <p><%= article.summary %></p>
+            <a class="btn btn-default" href="<%= article.url %>">Read More <i class="icon-angle-right"></i></a>
+          </div>
+        </div><!--/.blog-item-->
+      <% end %>
+    </div>
+  </div><!--/.col-md-8-->
+
+</div>
