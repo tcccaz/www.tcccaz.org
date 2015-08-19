@@ -5,3 +5,7 @@ tags: 特別聚會, 學生團契
 img_src: "/images/articles/2015welcome.png"
 ---
 <img src="/images/articles/2015welcome.png" width="650px"/>
+
+<img src="/images/articles/welcome-booklet1.png" width="650px"/>
+
+<img src="/images/articles/welcome-booklet2.png" width="650px"/>

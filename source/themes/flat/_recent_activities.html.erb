@@ -10,11 +10,14 @@
                 <div class="col-xs-4">
                   <div class="portfolio-item">
                     <div class="item-inner">
-                      <!--<img class="img-responsive" src="<%= article.data.img_src %>" width="650px"/>-->
                       <h3>
                         <%= article.title %>
                       </h3>
-                      <p><%= article.summary %></p>
+                      <% if article.data.img_src %>
+                        <img class="img-responsive" src="<%= article.data.img_src %>" width="650px"/>
+                      <% else %>
+                        <p><%= article.summary %></p>
+                      <% end %>
                       <div class="overlay">
                         <a class="preview btn btn-info" href="<%= article.url %>" rel=""><i class="icon-eye-open"></i></a>
                       </div>
