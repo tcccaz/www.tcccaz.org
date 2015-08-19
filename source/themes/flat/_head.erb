@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Home | Flat Theme</title>
+  <title><%= I18n.t('tccc') %></title>
   <%= stylesheet_link_tag '/stylesheets/flat/bootstrap.min.css' %>
   <%= stylesheet_link_tag '/stylesheets/flat/font-awesome.min.css' %>
   <%= stylesheet_link_tag '/stylesheets/flat/prettyPhoto.css' %>
@@ -21,9 +21,6 @@
     <%= javascript_include_tag '/javascripts/flat/html5shiv.js' %>
     <%= javascript_include_tag '/javascripts/flat/respond.min.js' %>
   <![endif]-->
-  <link rel="shortcut icon" href="/images/flat/ico/favicon.ico">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/flat/ico/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/flat/ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/flat/ico/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="/images/flat/ico/apple-touch-icon-57-precomposed.png">
+
+  <%= partial 'favicon_includes' %>
 </head><!--/head-->

@@ -1,25 +1,49 @@
-
 <section id="about-us" class="container">
   <div class="row">
-    <div class="col-sm-8">
-      <h2>建堂</h2>
-      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
-    </div><!--/.col-sm-6-->
-    <div class="col-sm-4">
-      <h2>異象使命</h2>
-      <div>
-        <div class="alert alert-info text-center">
-          <span class="h2">敬拜</span>
-        </div>
-        <div class="alert alert-danger text-center">
-          <span class="h2">聖經</span>
-        </div>
-        <div class="alert alert-success text-center">
-          <span class="h2">宣教</span>
-        </div>
-      </div>
-    </div><!--/.col-sm-6-->
-  </div><!--/.row-->
+    <h2>建堂</h2>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>親愛的弟兄姐妹們,經過幾年的禱告和預備,我們建新堂的許可今年 3 月 26 日終於獲
+        批。接下來幾個月,建堂委員會的弟兄們殷勤尋找建商,洽談合約。 7 月 2 日簽約。
+        同一天,北邊小房子拆除,預備工地,兒童遊樂區也拆除, 以便建堂期間安置兩個活動房
+        間(trailer),供孩子們聚會使用。 7 月 5 日我們舉行了簡單的破土儀式,7 月 7 日,新堂開
+        始建造。 讚美主! 我們禱告新堂能在聖誕節前完工,投入使用; 舊堂在明年農曆新年時
+        能完成翻修,增加新教室。 這個目標,需要您一起來完成!
+        新堂建造與舊堂翻修需要資金約$ 900,000,教會歷年奉獻收入結餘和弟兄姐妹為建堂奉獻
+        累計大約 $700,000,感謝主! 我們仍需要在年底前募得$200,000 (400 份 $500),急需大家
+        的擺上!
+      </p>
+
+      <p>
+        支持新堂建造! 若您願意為建堂或是其他項目奉獻,支票請寄
+      </p>
+
+      <p>
+        Tucson Chinese Christian Church,<br>
+        307 E. Helen Street, Tucson, AZ 85705.<br>
+        (支票 payable to TCCC, 煩請註明項目 "建堂基金")<br>
+
+      <p>您也可以通過網路奉獻 <%= link_to 'www.youcaring.com/tcccaz-construction', 'http://www.youcaring.com/tcccaz-construction' %>
+        。</p>
+
+      <p>若有疑問請聯絡 financialsupport@tcccaz.org</p>
+
+      <p>
+        感謝弟兄姐妹願意參與,在主對 TCCC 美好計畫中有份,一起來見證主的作為! 願主紀念您的擺上,豐富賜福!
+      </p>
+
+      <p>“看哪,我要做一件新事;如今要發現,你們豈不知道嗎?<br>
+        我必在曠野開道路,在沙漠開江河。”以賽亞書 43:19
+      </p>
+    </div>
+    <!--/.col-sm-6-->
+    <div class="col-sm-6">
+      <%= image_tag 'building-front.png', width: 600 %>
+    </div>
+    <!--/.col-sm-6-->
+  </div>
+  <!--/.row-->
 
   <%= partial('related_news', :locals => {:articles => blog.tags['building']}) if blog.tags['building'] %>
   <div class="gap"></div>
