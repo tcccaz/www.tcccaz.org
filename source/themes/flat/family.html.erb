@@ -1,27 +1,24 @@
+<section id="about-us" class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>家庭團契小組</h2>
 
-    <section id="about-us" class="container">
-        <div class="row">
-            <div class="col-sm-8">
-                <h2>家庭團契小組</h2>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
-            </div><!--/.col-sm-6-->
-            <div class="col-sm-4">
-                <h2>異象使命</h2>
-                <div>
-                    <div class="alert alert-info text-center">
-                      <span class="h2">敬拜</span>
-                    </div>
-                  <div class="alert alert-danger text-center">
-                    <span class="h2">聖經</span>
-                    </div>
-                  <div class="alert alert-success text-center">
-                    <span class="h2">宣教</span>
-                  </div>
-                </div>
-            </div><!--/.col-sm-6-->
-        </div><!--/.row-->
+      <p class="lead">由夫婦以家庭為單位所組成的團契。每週五於教會聚會。透過音樂敬拜、小組查經、專題講座、分享、祈禱、弟兄姊妹彼此建立及互相支持，
+        體現主內擁有屬神生命及愛的教會生活。每次聚會期間，均由教會老師按照不同年紀及需要提供青年，兒童，及幼兒查經活動。歡迎參加</p>
+      <p class="lead">Our church family consists of people of many nations, who all share a commitment to serve God and love one another.
+        We purpose to bring people to Lord Jesus Christ, and develop them to Christlike maturity, and equip them for ministry in the church
+        and life missions in the world, in order to magnify God's name. We invite you to join our family.</p>
+    </div>
+    <!--/.col-sm-6-->
+    <div class="col-sm-4">
+      <div class="gap"></div>
+      <%= image_tag '/images/rays.jpg', width: 335 %>
+    </div>
+    <!--/.col-sm-6-->
+  </div>
+  <!--/.row-->
 
-        <%= partial('related_news', :locals => {:articles => blog.tags['family']}) if blog.tags['family'] %>
-        <div class="gap"></div>
-    </section><!--/#about-us-->
+  <%= partial('related_news', :locals => {:articles => blog.tags['family']}) if blog.tags['family'] %>
+  <div class="gap"></div>
+</section><!--/#about-us-->
 
