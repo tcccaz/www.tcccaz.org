@@ -17,7 +17,7 @@ tags: student,學生團契
 
 <hr>
 
-**_填写_**  >>  [**2016秋土桑华人基督教会新生接机表**](http://www.tcccaz.org/airport-pickup "target=_blank"){:target="_blank"}
+**_請填写_**  >>  [**2016秋土桑华人基督教会新生接机表**](http://www.tcccaz.org/airport-pickup "target=_blank"){:target="_blank"}
 
 _注：关于接机—信息填写请以个人为单位；若结伴而行，每一个人仍需分开填写一份，以方便作业。_
 
