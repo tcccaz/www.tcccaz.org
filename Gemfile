@@ -10,3 +10,4 @@ gem 'middleman-deploy', '~> 1.0'
 gem "builder", "~> 3.0"
 
 gem 'nokogiri'
+gem 'font-awesome-middleman'
