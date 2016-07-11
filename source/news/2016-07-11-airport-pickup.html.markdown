@@ -1,7 +1,6 @@
 ---
 title: TCCC 2016 Airport Pickup!
 category: student,學生團契
-img_src: "/images/articles/Praise-Night-Poster.jpg"
 tags: student,學生團契
 ---
 
