@@ -1,8 +1,7 @@
 ---
 title: 迎新
-category:
-category: 消息, news, student,學生團契, 特別聚會
-tags: 消息, news, student,學生團契, 特別聚會
+category: 消息,news, student,學生團契, 特別聚會
+tags: 消息,news,student,學生團契, 特別聚會
 ---
 
 # 2016新生迎新會
@@ -17,3 +16,4 @@ tags: 消息, news, student,學生團契, 特別聚會
 联系邮箱：student@tcccaz.org  
 
 <img src="/images/articles/2016welcome.png" width="650px"/>
+
