@@ -1,0 +1,25 @@
+<section id="about-us" class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>成人主日學</h2>
+      <hr>
+      <p class="lead">
+        2017主日學開設課程：<br>慕道班，初信造就班，新約班，舊約班，歷史班及系統神學班。
+      </p>
+      <p class="lead">   
+        教室安排：<br>慕道班（主堂門廳），初信造就班（圖書室），新約班（會議室），舊約班（多功能廳），歷史班（副堂小辦公室），系統神學班（主堂大廳）。
+      </p>
+    </div>
+    <!--/.col-sm-6-->
+    <div class="col-sm-4">
+      <div class="gap"></div>
+      <%= image_tag '/images/sundayschool/bible.jpg', width: 335 %>
+    </div>
+    <!--/.col-sm-6-->
+  </div>
+  <!--/.row-->
+
+  <%= partial('courselist', :locals => {:articles => blog.tags['成人主日學']}) if blog.tags['成人主日學'] %>
+  <div class="gap"></div>
+</section><!--/#about-us-->
+
