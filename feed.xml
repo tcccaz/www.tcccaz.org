@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2017-01-06T00:00:00Z</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>初信造就班</title>
+    <link rel="alternate" href="http://blog.url.com/news/2017/01/06/sundayschool.html"/>
+    <id>http://blog.url.com/news/2017/01/06/sundayschool.html</id>
+    <published>2017-01-06T00:00:00Z</published>
+    <updated>2017-07-19T16:23:50-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="section"&gt;永遠的生命-伯特-巴灵顿&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href="/downloads/sundayschool/永遠的生命-伯特-巴灵顿.pdf" target="_blank"&gt;
+&lt;img src="/images/sundayschool/永遠的生命-伯特-巴灵顿.png" width="650px" /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>2016雲彩集</title>
+    <link rel="alternate" href="http://blog.url.com/news/2017/01/03/cloud2016.html"/>
+    <id>http://blog.url.com/news/2017/01/03/cloud2016.html</id>
+    <published>2017-01-03T00:00:00Z</published>
+    <updated>2017-07-19T16:23:50-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="section"&gt;2016雲彩集&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href="http://cloud2016.tcccaz.org" target="_blank"&gt;
+&lt;img src="/images/cloud2016.png" width="650px" /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>迎新</title>
+    <link rel="alternate" href="http://blog.url.com/news/2016/08/12/welcome-party.html"/>
+    <id>http://blog.url.com/news/2016/08/12/welcome-party.html</id>
+    <published>2016-08-12T00:00:00Z</published>
+    <updated>2017-07-19T16:23:50-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="section"&gt;2016新生迎新會&lt;/h1&gt;
+
+&lt;p&gt;欢迎新朋友们来到Tucson，土桑华人基督教会(TCCC)特别为你们准备了好吃好玩好听的迎新晚会。
+还有与UA教授的分组讨论和分享。欢迎新老朋友们参加！
+可以扫描下图中的二维码来报名，以方便我们安排接送和分组讨论。
+期待与你们见面！&lt;/p&gt;
+
+&lt;p&gt;时间：2016年8月20日（周六）6:00 pm.&lt;br /&gt;
+地点：307 E Helen St, Tucson, AZ, 85705&lt;br /&gt;
+联系邮箱：student@tcccaz.org&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/articles/2016welcome.png" width="650px" /&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>TCCC 2016 Airport Pickup!</title>
+    <link rel="alternate" href="http://blog.url.com/news/2016/07/11/airport-pickup.html"/>
+    <id>http://blog.url.com/news/2016/07/11/airport-pickup.html</id>
+    <published>2016-07-11T00:00:00Z</published>
+    <updated>2017-07-19T16:23:50-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="section"&gt;2016秋土桑华人基督教会新生接机&lt;/h1&gt;
+
+&lt;p&gt;亲爱的学生朋友们,欢迎你们即将来到亚利桑那大学读书,学习。&lt;/p&gt;
+
+&lt;p&gt;一如往昔，TCCC土桑華人基督教會(http://www.tcccaz.org/) 將提供免费接机服務。&lt;/p&gt;
+
+&lt;p&gt;如有需要，请您提供以下信息，届时我们会派有专人负责跟您联络及安排接机. 我们会尽力为您提供帮助。&lt;/p&gt;
+
+&lt;p&gt;如有疑问，请联络 student@tcccaz.org 。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;i class="icon-pencil"&gt;&lt;/i&gt;
+&lt;strong&gt;&lt;em&gt;請填写&lt;/em&gt;&lt;/strong&gt;  »  &lt;a title="target=_blank" target="_blank" href="http://www.tcccaz.org/airport-pickup"&gt;&lt;strong&gt;2016秋土桑华人基督教会新生接机表&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;注：关于接机—信息填写请以个人为单位；若结伴而行，每一个人仍需分开填写一份，以方便作业。&lt;/em&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>2015雲彩集</title>
+    <link rel="alternate" href="http://blog.url.com/news/2016/02/03/cloud2015.html"/>
+    <id>http://blog.url.com/news/2016/02/03/cloud2015.html</id>
+    <published>2016-02-03T00:00:00Z</published>
+    <updated>2017-07-19T16:23:50-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="section"&gt;2015雲彩集&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href="http://cloud2015.tcccaz.org" target="_blank"&gt;
+&lt;img src="/images/cloud2015.png" width="650px" /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>TCCC Praise Night!</title>
+    <link rel="alternate" href="http://blog.url.com/news/2015/11/01/praise-night.html"/>
+    <id>http://blog.url.com/news/2015/11/01/praise-night.html</id>
+    <published>2015-11-01T00:00:00Z</published>
+    <updated>2017-07-19T16:23:50-07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="/images/articles/Praise-Night-Poster.jpg" width="80%" /&gt;&lt;/p&gt;
+</content>
+  </entry>
+</feed>
