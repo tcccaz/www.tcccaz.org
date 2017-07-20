@@ -1,0 +1,29 @@
+<section id="about-us" class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <h2>學生團契介紹</h2>
+      <hr>
+      <p class="lead">
+        TCCC Student Fellowship aims at serving both Christian and non-Christian Chinese in the University of
+        Arizona community. We are here to seek, to experience, to learn about God, and to enrich our spiritual life. ("I
+        have come that they may have life, and have it to the full" -- John 10:10) We have a regular meeting on every
+        Friday evening from 6:30pm to 9:30pm. The normal activities include dinner, song singing, testimony, Bible
+        study, and personal fellowship. In addition, there are some occasional special events for new students,
+        birthday, spring/autumn outing, Chinese New Year, Thanksgiving, and Christmas. If you are a
+        Chinese-Mandarin-speaking student or a young working professional (single or couples without children), please
+        join us and share with us :)
+      </p>
+    </div>
+    <!--/.col-sm-6-->
+    <div class="col-sm-6">
+      <%= image_tag 'student-home.jpg', width: 525 %>
+    </div>
+    <!--/.col-sm-6-->
+  </div>
+  <!--/.row-->
+
+  <%= partial('related_news', :locals => {:articles => blog.tags['student']}) if blog.tags['student'] %>
+  <div class="gap"></div>
+
+</section><!--/#about-us-->
+
